@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Form</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+          <br>
+          <br>
+      <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password">
+          <br>
+          <br>
+      <label for="name">Nombre y apellidos:</label>
+        <input type="text" id="name" name="name" required> 
+          <br>
+          <br>
+      <label for="birthday">Fecha de nacimiento:</label>
+        <input type="date" id="birthday" name="birthday" required>
+          <br>
+          <br>
+      <label for="phone">Número de teléfono:</label>
+        <input type="number" id="phone" name="phone" required>
+          <br>
+          <br>
+      <label for="plan">Elige un plan:</label>
+        <select id="plan" name="plan">
+          <option value="free">Plan gratuito</option>
+          <option value="plan1">10€</option>
+          <option value="plan2">25€</option>
+          <option value="plan3">50€</option>
+        </select>
+          <br>
+          <br>
+      <label for="planPremium">Plan premium</label>
+        <input type="checkbox" id="planPremium" name="planPremium">        
+          <br>
+          <br>
+      <label for="creditCard">Tarjeta de crédito:</label>
+        <input type="number" id="creditCard" name="creditCard" required>        
+          <br>
+          <br>
+      <label for="cvc">CVC:</label>
+        <input type="text" id="cvc" name="cvc" required>
+          <br>
+          <br>
+      <label for="expiration">Fecha de caducación:</label>
+        <input type="date" id="expiration" name="expiration" required>
+          <br>
+          <br>
+      <label for="billingAddress">Dirección de facturación:</label>
+        <input type="text" id="billingAddress" name="billingAddress">
+    </form>
+  </body>
+</html>
